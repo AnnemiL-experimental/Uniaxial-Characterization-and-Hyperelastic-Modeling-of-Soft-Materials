@@ -1,6 +1,6 @@
 # Materials Testing of Silicone Elastomer and Porcine Skeletal Muscle
 
-_A complete modeling pipeline from experiment to analysis._
+_A study integrating uniaxial material testing with hyperelastic constitutive modeling._
 
 This repository serves as a technical writing sample and research artifact, containing the complete analysis pipeline for a biomechanics laboratory study that characterizes the large-deformation mechanical behavior of a silicone elastomer and porcine skeletal Muscle under uniaxial tension and compression. The goal is to demonstrate a complete scientific workflow spanning experiment, data processing, constitutive modeling, and technical writing.
 
@@ -28,7 +28,9 @@ Raw Data → Preprocessing → Stress/Strain Computation → Model Fitting → V
 
 ├── report.pdf  
 
-├── data/                
+├── data/     
+
+├── theory/ 
 
 └── analysis/            
 
@@ -64,15 +66,22 @@ Relaxation decay: Silicone ~4.5% vs. Muscle ~58.7%.
 
 A four-term Ogden model fits tensile silicone with R² ≈ 0.997.
 
+# Theoretical Modeling Supplement
+
+To complement the experimental characterization, a separate theoretical analysis of the Mooney–Rivlin hyperelastic model was performed. The model was derived from its strain energy formulation, converted to the First Piola–Kirchhoff (engineering) stress for uniaxial tension and simple shear, and evaluated across parameter variations to illustrate nonlinear mechanical responses.
+
+The modeling component strengthens the interpretation of soft material behavior and connects laboratory measurements with continuum mechanics.
+
+Artifact available in:
+
+theory/Mooney_Rivlin_Model.pdf
+
 # Environment
 
 Python 3.13.2
 
 NumPy / SciPy / Matplotlib / Pandas
 
-# Report
-
-The whole lab report is included in main/, and it documents the experimental methods, data analysis, constitutive modeling, and mechanical interpretation.
 
 # Acknowledgements
 
