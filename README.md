@@ -2,7 +2,7 @@
 
 _A study integrating uniaxial material testing with hyperelastic constitutive modeling._
 
-This repository serves as a technical writing sample and research artifact, containing the complete analysis pipeline for a biomechanics laboratory study that characterizes the large-deformation mechanical behavior of a silicone elastomer and porcine skeletal Muscle under uniaxial tension and compression. The goal is to demonstrate a complete scientific workflow spanning experiment, data processing, constitutive modeling, and technical writing.
+This repository serves as a technical writing sample and research artifact, containing the complete analysis pipeline for a biomechanics laboratory study that characterizes the large-deformation mechanical behavior of a silicone elastomer and porcine skeletal muscle under uniaxial tension and compression. The goal is to demonstrate a complete scientific workflow spanning experiment, data processing, constitutive modeling, and technical writing.
 
 # Highlights
 
